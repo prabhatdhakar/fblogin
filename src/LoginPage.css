@@ -1,0 +1,55 @@
+.tophead{
+    padding-top: 15px;
+    padding-left: 0px;
+    font-size: 15px;
+    height: 40px;
+    color: rgb(94, 152, 206);
+    background-color: rgb(247, 245, 211);
+}
+.header{
+    color: rgb(48, 123, 235);
+}
+#email{
+    color: rgb(102, 101, 101);
+    padding-left: 15px;
+    margin: 1px 5px 5px 5px;
+    height: 40px;
+    width: 90%;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius : 4px;
+    background-color: rgb(245, 245, 245);
+}
+
+#pass{
+    color: rgb(102, 101, 101);
+    padding-left: 15px;
+    margin: 5px 5px 5px 5px;
+    height: 40px;
+    width: 90%;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius : 4px;
+    background-color: rgb(245, 245, 245);
+}
+#btn{
+    margin-top: 5px;
+    font-size: 20px;
+    color: white;
+    width: 95%;
+    height: 40px;
+    border: blue;
+    border-radius: 4px;
+    background-color: rgb(29, 125, 216);
+}
+.fpass{
+    margin-top: 12px;
+    color: rgb(30, 109, 146);
+}
+.newacc{
+    color:white;
+    margin: 15px auto;
+    background-color:rgb(10, 170, 10);
+    width:45%;
+    height:30px;
+    padding-top:12px;
+    border-radius: 5px;
+}
